@@ -12,7 +12,7 @@ echo "Congratulations, you have created a new python file!"
 echo "#!/usr/bin/env python" | cat >> $newfilename
 chmod +x ./$newfilename
 
-echo "Would you like to compile your pogramm:?"
+echo "Would you like to compile your pogram:?"
 read case
 
 if [ "$case" = "yes" ];
